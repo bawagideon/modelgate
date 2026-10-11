@@ -1,0 +1,13 @@
+{
+  "name": "modelgate",
+  "version": "1.0.0",
+  "description": "Multi-Provider LLM Reliability Gateway with Fallback Routing, Budget Guards, and Telemetry",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/modelgate.test.js",
+    "start": "node src/index.js"
+  },
+  "keywords": ["llm-gateway", "ai-reliability", "fallback-routing", "circuit-breaker", "observability"],
+  "author": "Gideon Bawa <bawagideon98@gmail.com>",
+  "license": "MIT"
+}
